@@ -1,0 +1,35 @@
+.navigator{
+    background:linear-gradient(to right,white, #A78BFA);
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+    transition: background 0.3s ease-in-out;
+
+}
+.references{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    align-items: center;
+
+}
+.nButton{
+    color:white;
+    border-radius: 10px;
+    border: none;
+    background-color: #7C3AED;
+    margin: 5px;
+    padding: 8px;
+    font-size: 16px;
+}
+.nButton:hover{
+    background-color: #6219e0;
+
+}
+
+.title{
+    font-size: 24px;
+}

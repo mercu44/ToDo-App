@@ -1,0 +1,46 @@
+# === BACKEND (Flask) ===
+
+# Entorno virtual
+backend/venv/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Configuración local / sensible
+.env
+instance/
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# === FRONTEND (React) ===
+
+# Dependencias
+frontend/node_modules/
+
+# Builds y coverage
+frontend/build/
+frontend/coverage/
+
+# Archivos de entorno
+frontend/.env*
+.env*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Archivos del sistema / editores ===
+
+.DS_Store
+.vscode/
+.idea/
+
+# === Otros ===
+
+descripcion.txt

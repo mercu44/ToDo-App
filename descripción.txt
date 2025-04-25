@@ -1,0 +1,92 @@
+✅ Proyecto Fullstack: Lista de Tareas (ToDo App) con Usuarios y API
+🎯 Funcionalidades:
+🌐 Frontend (React + HTML/CSS):
+
+    Formulario de login y registro
+
+    Dashboard con:
+
+        Lista de tareas del usuario
+
+        Botón para marcar como hecha / eliminar / editar
+
+        Filtros (por estado: pendientes, completadas)
+
+    Formulario para añadir nueva tarea
+
+🐍 Backend (Flask):
+
+    API REST con endpoints:
+
+        POST /api/register
+
+        POST /api/login (devuelve token JWT)
+
+        GET /api/tasks (requiere token)
+
+        POST /api/tasks (crear nueva tarea)
+
+        PUT /api/tasks/<id> (editar)
+
+        DELETE /api/tasks/<id> (borrar)
+
+    Base de datos con SQLAlchemy:
+
+        Usuarios
+
+        Tareas (relación uno a muchos)
+
+    Seguridad con JWT (usando Flask-JWT-Extended)
+
+🧱 Tecnología que practicarás:
+🔧 Backend:
+
+    Flask
+
+    Flask-JWT-Extended
+
+    Flask-SQLAlchemy
+
+    Flask-CORS (para permitir llamadas desde React)
+
+    Base de datos SQLite o PostgreSQL
+
+🎨 Frontend:
+
+    React
+
+    Componentes y Hooks (useState, useEffect)
+
+    Fetch API o Axios para conectarte a Flask
+
+    CSS o Bootstrap/Tailwind para el estilo
+
+🗂️ Estructura sugerida:
+W
+/backend
+├── app.py
+├── models.py
+├── routes.py
+├── config.py
+└── ...
+
+/frontend
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── index.js
+└── ...
+
+🌟 Extensiones futuras (cuando ya lo tengas funcionando):
+
+    ✔️ Validaciones en formularios
+
+    🕒 Fecha límite de tareas y recordatorios
+
+    🔔 Notificaciones visuales (tareas vencidas)
+
+    🗂️ Tareas por categoría
+
+    📱 Responsive
+

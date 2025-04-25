@@ -1,0 +1,131 @@
+
+body {
+    background-color: #F3F4F6;
+    font-family: 'Segoe UI', sans-serif;
+}
+.container{
+    margin-right: 10%;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    list-style: none;
+}
+.bodyCard, .bodyCardDone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    padding: 16px 20px;
+    background-color: #ffffff;
+    box-shadow:0 4px 12px rgba(0,0,0,0.06);
+    width: 100%;
+    gap: 20px
+    
+}
+.bodyCard:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+.bodyCardDone{
+    background-color: rgb(221, 221, 221);
+}
+
+.checkHidden {
+    display: none;
+}
+.checkBox {
+    align-items: center;
+    cursor:pointer;
+    height: fit-content;
+    transform: scale(1.5);
+    accent-color: #6366F1;  
+
+}
+.addButton {
+    display: inline-block;
+  margin: 10px 40px ;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(to right, #6366F1, #8B5CF6);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.addButton:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, #00aaff, #005bb5);
+    transform: scale(1.02);
+}
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.cardButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    min-width: 100px;
+}
+.deleteButton{
+    background-color: #EF4444;
+    color:white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-weight: 500;
+    border:none;
+    margin: 5px;
+    font-size: 16px;
+
+}
+.deleteButton:hover{
+    background-color: #DC2626;
+    cursor:pointer;
+    transform: scale(1.02);
+
+}
+
+.editButton {
+    background-color: #3B82F6;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: none;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background 0.2s ease;
+}
+
+.editButton:hover {
+    background-color: #2563EB;
+    cursor: pointer;
+    transform: scale(1.02);
+
+}
+
+
+.input{
+    padding: 10px;
+    font-size: 16px;
+}
+.title{
+    font-size: 18px;
+    margin: 5px;
+    color: #1F2937;
+    font-weight: 600;
+}
+.content{
+    font-size: 16px;
+    color: #6B7280;
+    margin: 5px;
+}
