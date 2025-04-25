@@ -39,23 +39,23 @@ Este es un proyecto web **fullstack** que permite a los usuarios registrarse, in
 ```bash
 git clone https://github.com/tu-usuario/aprenderFullStack.git
 cd aprenderFullStack
-
-2. Backend - Flask
-
+```
+### 2. Backend - Flask
+```
 cd backend
 python -m venv venv
 source venv/bin/activate   # En Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
-
+```
 Esto levantará el servidor backend en http://localhost:5000
 
-3. Frontend - React
-
+### 3. Frontend - React
+```
 En otra terminal:
 
 cd frontend
 npm install
 npm start
-
+```
 Esto levantará el frontend en http://localhost:3000 y se conectará con el backend automáticamente.
